@@ -1,0 +1,47 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 230px;
+  padding: 15px 0;
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 19px;
+}
+
+.popover-active {
+  position: absolute;
+  width: 270px;
+  border: 1px solid #cac8c8;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: sans-serif;
+  color:#000;
+  text-align: left;
+}
+
+.title {
+  padding: 9px;
+  border-bottom: 1px solid #cac8c8;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #e0e0e0;
+}
+
+.text {
+  padding: 9px;
+  font-size: 14px;
+}
