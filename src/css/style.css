@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 
-.container {
-  position: relative;
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  position: relative;
 }
 
 .button {
