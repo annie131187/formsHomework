@@ -16,7 +16,7 @@ export default class Popover {
     this.popover.appendChild(popoverTitle);
     this.popover.appendChild(popoverText);
 
-    const { top, left, width } = element.getBoundingClientRect();
+    const { top, left } = element.getBoundingClientRect();
     console.log(element.getBoundingClientRect());
 
     this.popover.style.top = top - this.popover.offsetHeight - 7 + "px";
